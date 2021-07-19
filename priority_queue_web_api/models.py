@@ -34,7 +34,7 @@ class Job(db.Model):
     def serialize_get(self) -> Dict:
         return {
             "jobId": self.id,
+            "name": self.name,
             "submitterId": self.submitterId,
-            "priority": self.priority,
-            "name": self.name
+            "priority": self.priority
         }

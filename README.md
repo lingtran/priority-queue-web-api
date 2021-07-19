@@ -53,3 +53,32 @@ To spin up the application locally without database
 
 ### `docker-compose -f docker-compose.yml up`
 From the project root to spin up the api and database with Docker
+
+## API Endpoints
+
+### `POST /jobs`
+Request payload:
+```
+{
+    "name": <String>,
+    "submitterId": <Integer>,
+    "priority": <Integer>
+}
+```
+
+Response payload:
+```
+{
+    "jobId": <UUID>
+}
+```
+
+### `GET /jobs/next`
+```
+{
+    "jobId": <UUID>,
+    "name": <String>,
+    "submitterId": <Integer>,
+    "priority": <Integer>
+}
+```
