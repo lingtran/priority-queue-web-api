@@ -5,15 +5,11 @@ Building a web API server priority queue to handle submitted jobs.
 
 API here does not handle authentication and authorization.
 
-### `Python 3.6.9`
-
-### `Flask`
-
-### `postgres`
-
-### `Docker`
-
-### `Docker Compose`
+* `Python 3.6.9`
+* `Flask`
+* `postgres`
+* `Docker`
+* `Docker Compose`
 Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Setup
