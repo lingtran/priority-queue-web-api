@@ -1,0 +1,9 @@
+flake8
+Flask==2.0.1
+Flask-Cors==3.0.10
+Flask-Migrate==2.5.2
+Flask-SQLAlchemy
+flask-marshmallow
+marshmallow-sqlalchemy
+psycopg2-binary
+python-dotenv
